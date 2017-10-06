@@ -1,0 +1,35 @@
+{
+  "name": "jm-sso-mqtt",
+  "version": "0.0.2",
+  "description": "mqtt plugin for jm-sso",
+  "main": "./lib/index",
+  "scripts": {
+    "start": "node node_modules/jm-server/bin/jm-server",
+    "cluster": "node node_modules/jm-server/bin/jm-server --cluster",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.jamma.cn/play/jm-sso-mqtt.git"
+  },
+  "keywords": [
+    "javascript",
+    "jm-sso-mqtt"
+  ],
+  "author": {
+    "name": "Jeff YU"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "http://git.jamma.cn/play/jm-sso-mqtt/issues"
+  },
+  "homepage": "http://git.jamma.cn/play/jm-sso-mqtt",
+  "devDependencies": {
+    "jm-sso": "^1.0.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "jm-log4js": "^1.1.1",
+    "mqtt": "^2.13.0"
+  }
+}
